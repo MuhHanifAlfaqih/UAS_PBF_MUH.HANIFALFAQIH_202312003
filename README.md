@@ -7,7 +7,7 @@ Dilengkapi dengan fitur **login**, **CRUD aktivitas**, dan **CRUD detail aktivit
 
 ## 👤 Identitas Mahasiswa
 - **Nama**: Muh. Hanif Alfaqih  
-- **NIM**: (isi NIM kamu)
+- **NIM**: (202312003)
 
 ---
 
@@ -35,3 +35,54 @@ Dilengkapi dengan fitur **login**, **CRUD aktivitas**, dan **CRUD detail aktivit
 
 ## 📂 Struktur Folder
 # UAS_PBF_MUH.HANIFALFAQIH_202312003
+
+---
+
+## 🔗 Routing Express (Singkat)
+- `/login` → halaman login
+- `/dashboard` → dashboard utama
+- `/aktivitas` → master aktivitas
+- `/aktivitas/:id/detail` → detail aktivitas (relasi)
+- `/aktivitas/tambah` → tambah aktivitas
+- `/detail/edit/:id` → edit detail aktivitas
+
+---
+
+## 🔗 Relasi Master–Detail
+- **Aktivitas** → Master
+- **DetailAktivitas** → Detail
+- Satu aktivitas bisa memiliki **banyak detail**
+- Relasi menggunakan `aktivitasId` sebagai foreign key
+
+---
+
+## 🗄️ Database Schema (Prisma)
+```prisma
+model User {
+  id        Int         @id @default(autoincrement())
+  username  String
+  password  String
+  aktivitas Aktivitas[]
+}
+
+model Aktivitas {
+  id        Int              @id @default(autoincrement())
+  judul     String
+  kategori  String
+  tanggal   DateTime
+  userId    Int
+  user      User             @relation(fields: [userId], references: [id])
+  detail    DetailAktivitas[]
+}
+
+model DetailAktivitas {
+  id           Int        @id @default(autoincrement())
+  deskripsi    String
+  durasi       Int
+  status       String
+  aktivitasId  Int
+  aktivitas    Aktivitas @relation(fields: [aktivitasId], references: [id])
+}
+
+⚙️ Cara Install & Menjalankan Aplikasi
+2️⃣ Install Dependency
