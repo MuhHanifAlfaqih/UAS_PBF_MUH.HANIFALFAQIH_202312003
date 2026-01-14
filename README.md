@@ -128,3 +128,13 @@ Akses aplikasi melalui browser:
 http://localhost:3000
 
 ---
+
+🔐 Akun Dummy Login
+
+Gunakan akun berikut untuk login:
+
+Username: admin
+Password: admin
+
+
+(Pastikan data user sudah ada di database)
