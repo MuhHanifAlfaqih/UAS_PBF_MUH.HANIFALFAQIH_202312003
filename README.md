@@ -124,5 +124,3 @@ npx prisma migrate dev --name init
 node app.js
 Akses aplikasi melalui browser:
 http://localhost:3000
-
----
