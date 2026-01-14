@@ -82,6 +82,13 @@ Dilengkapi dengan fitur **login**, **CRUD aktivitas**, dan **CRUD detail aktivit
         node app.js
         Akses aplikasi melalui browser:
         http://localhost:3000
+
+---
+## 🔐 Akun Dummy Login
+       Gunakan akun berikut untuk login:
+       Username: admin
+       Password: admin
+
 ---
 
 ## 🗄️ Database Schema (Prisma)
