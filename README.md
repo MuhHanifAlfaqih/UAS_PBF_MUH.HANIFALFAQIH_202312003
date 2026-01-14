@@ -86,7 +86,7 @@ model DetailAktivitas {
 
 ---
 
-## 🗄️ Database Schema (Prisma)
+⚙️ Cara Install & Menjalankan Aplikasi
 1️⃣ Pastikan Node.js & npm Terpasang
 Cek versi Node.js dan npm:
 node -v
@@ -124,3 +124,5 @@ npx prisma migrate dev --name init
 node app.js
 Akses aplikasi melalui browser:
 http://localhost:3000
+
+---
