@@ -106,11 +106,9 @@ model Aktivitas {
 
 model DetailAktivitas {
   id           Int        @id @default(autoincrement())
+  aktivitasId  Int
   deskripsi    String
   durasi       Int
   status       String
-  aktivitasId  Int
   aktivitas    Aktivitas @relation(fields: [aktivitasId], references: [id])
 }
-
-## ak
