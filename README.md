@@ -108,3 +108,17 @@ npm install prisma@5 @prisma/client@5
 npx prisma init
 Cek versi Prisma:
 npx prisma -v
+
+7️⃣ Konfigurasi Database
+Atur koneksi database di file .env
+Sesuaikan dengan MySQL lokal
+Contoh:
+DATABASE_URL="mysql://root:@localhost:3306/db_aktivitas"
+
+8️⃣ Migrasi Database
+npx prisma migrate dev --name init
+
+9️⃣ Jalankan Aplikasi
+node app.js
+Akses aplikasi melalui browser:
+http://localhost:3000
