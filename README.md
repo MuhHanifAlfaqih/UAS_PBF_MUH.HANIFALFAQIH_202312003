@@ -34,7 +34,6 @@ Dilengkapi dengan fitur **login**, **CRUD aktivitas**, dan **CRUD detail aktivit
 ---
 
 ## 📂 Struktur Folder
-# UAS_PBF_MUH.HANIFALFAQIH_202312003
 
 ---
 
