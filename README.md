@@ -86,9 +86,6 @@ model DetailAktivitas {
 
 ---
 
-
----
-
 ## 🛠️ Cara Install & Menjalankan Aplikasi
 
 ### 1️⃣ Pastikan Node.js & npm terinstall
