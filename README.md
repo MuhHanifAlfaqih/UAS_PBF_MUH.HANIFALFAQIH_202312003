@@ -87,11 +87,24 @@ model DetailAktivitas {
 ⚙️ Cara Install & Menjalankan Aplikasi
 1️⃣ Pastikan Node.js & npm Terpasang
 Cek versi Node.js dan npm:
-```bash
 node -v
 npm -v
+
 2️⃣ Inisialisasi Project
-
 Masuk ke folder project lalu jalankan:
-
 npm init -y
+
+3️⃣ Install Dependency Utama
+npm install express ejs mysql2 express-session body-parser
+
+4️⃣ Install dotenv
+npm install dotenv
+
+5️⃣ Install Prisma
+npm install prisma --save-dev
+npm install prisma@5 @prisma/client@5
+
+6️⃣ Inisialisasi Prisma
+npx prisma init
+Cek versi Prisma:
+npx prisma -v
