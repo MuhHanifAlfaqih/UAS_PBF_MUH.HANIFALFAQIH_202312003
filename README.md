@@ -84,7 +84,7 @@ model DetailAktivitas {
   aktivitas    Aktivitas @relation(fields: [aktivitasId], references: [id])
 }
 
-⚙️ Cara Install & Menjalankan Aplikasi
+## ⚙️ Cara Install & Menjalankan Aplikasi
 1️⃣ Pastikan Node.js & npm Terpasang
 Cek versi Node.js dan npm:
 node -v
