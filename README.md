@@ -86,7 +86,7 @@ model DetailAktivitas {
 
 ---
 
-⚙️ Cara Install & Menjalankan Aplikasi
+## ⚙️ Cara Install & Menjalankan Aplikasi
 - Pastikan Node.js & npm Terpasang
 Cek versi Node.js dan npm:
 node -v
