@@ -84,46 +84,6 @@ model DetailAktivitas {
   aktivitas    Aktivitas @relation(fields: [aktivitasId], references: [id])
 }
 
-## 🛠️ Cara Install & Menjalankan Aplikasi
-
-### 1️⃣ Pastikan Node.js & npm terinstall
-
-- node -v
-npm -v
-
-
-2️⃣ Inisialisasi Project
-Masuk ke folder project lalu jalankan:
-npm init -y
-
-3️⃣ Install Dependency Utama
-npm install express ejs mysql2 express-session body-parser
-
-4️⃣ Install dotenv
-npm install dotenv
-
-5️⃣ Install Prisma
-npm install prisma --save-dev
-npm install prisma@5 @prisma/client@5
-
-6️⃣ Inisialisasi Prisma
-npx prisma init
-Cek versi Prisma:
-npx prisma -v
-
-7️⃣ Konfigurasi Database
-Atur koneksi database di file .env
-Sesuaikan dengan MySQL lokal
-Contoh:
-DATABASE_URL="mysql://root:@localhost:3306/db_aktivitas"
-
-8️⃣ Migrasi Database
-npx prisma migrate dev --name init
-
-9️⃣ Jalankan Aplikasi
-node app.js
-Akses aplikasi melalui browser:
-http://localhost:3000
-
 ---
 
+## ak
