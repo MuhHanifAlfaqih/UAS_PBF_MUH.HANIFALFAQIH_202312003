@@ -85,4 +85,13 @@ model DetailAktivitas {
 }
 
 ⚙️ Cara Install & Menjalankan Aplikasi
-2️⃣ Install Dependency
+### 1️⃣ Pastikan Node.js & npm Terpasang
+Cek versi Node.js dan npm:
+```bash
+node -v
+npm -v
+2️⃣ Inisialisasi Project
+
+Masuk ke folder project lalu jalankan:
+
+npm init -y
