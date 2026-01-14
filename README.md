@@ -84,8 +84,6 @@ model DetailAktivitas {
   aktivitas    Aktivitas @relation(fields: [aktivitasId], references: [id])
 }
 
----
-
 ## 🛠️ Cara Install & Menjalankan Aplikasi
 
 ### 1️⃣ Pastikan Node.js & npm terinstall
@@ -129,12 +127,3 @@ http://localhost:3000
 
 ---
 
-🔐 Akun Dummy Login
-
-Gunakan akun berikut untuk login:
-
-Username: admin
-Password: admin
-
-
-(Pastikan data user sudah ada di database)
