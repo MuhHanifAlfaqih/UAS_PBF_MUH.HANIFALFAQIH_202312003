@@ -87,12 +87,12 @@ model DetailAktivitas {
 ---
 
 ⚙️ Cara Install & Menjalankan Aplikasi
-1️⃣ Pastikan Node.js & npm Terpasang
+- Pastikan Node.js & npm Terpasang
 Cek versi Node.js dan npm:
 node -v
 npm -v
 
-2️⃣ Inisialisasi Project
+- Inisialisasi Project
 Masuk ke folder project lalu jalankan:
 npm init -y
 
